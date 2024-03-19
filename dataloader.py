@@ -14,11 +14,6 @@ class IEMOCAPRobertaCometDataset(Dataset):
         self.roberta1, self.roberta2, self.roberta3, self.roberta4,\
         self.sentences, self.trainIds, self.testIds, self.validIds \
         = pickle.load(open('iemocap/iemocap_features_roberta.pkl', 'rb'), encoding='latin1')
-        
-        #self.speakers2, self.labels2, \
-        #self.roberta12, self.roberta22, self.roberta32, self.roberta42,\
-        #self.sentences2, self.trainIds2, self.testIds2, self.validIds2 \
-        #= pickle.load(open('iemocap/iemocap_features_roberta2.pkl', 'rb'), encoding='latin1')
          
         self.xIntent, self.xAttr, self.xNeed, self.xWant, self.xEffect, self.xReact, self.oWant, self.oEffect, self.oReact \
         = pickle.load(open('iemocap/iemocap_features_comet.pkl', 'rb'), encoding='latin1')
@@ -69,12 +64,7 @@ class MELDRobertaCometDataset(Dataset):
         self.speakers, self.emotion_labels, self.sentiment_labels, \
         self.roberta1, self.roberta2, self.roberta3, self.roberta4, \
         self.sentences, self.trainIds, self.testIds, self.validIds \
-        = pickle.load(open('meld/meld_features_roberta_xt.pkl', 'rb'), encoding='latin1')
-
-        self.speakers2, self.emotion_labels2, self.sentiment_labels2, \
-        self.roberta12, self.roberta22, self.roberta32, self.roberta42, \
-        self.sentences2, self.trainIds2, self.testIds2, self.validIds2 \
-        = pickle.load(open('meld/meld_features_roberta2.pkl', 'rb'), encoding='latin1')
+        = pickle.load(open('meld/meld_features_roberta.pkl', 'rb'), encoding='latin1')
       
 
         self.xIntent, self.xAttr, self.xNeed, self.xWant, self.xEffect, self.xReact, self.oWant, self.oEffect, self.oReact \
