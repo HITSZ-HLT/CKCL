@@ -1,6 +1,6 @@
 # CKCL
 
-> The official implementation for the Findings of the ACL 2023 paper *Context or Knowledge is Not Always Necessary: A Contrastive Learning Framework for Emotion Recognition in Conversations*.
+> The official implementation for Findings of the ACL 2023 paper *Context or Knowledge is Not Always Necessary: A Contrastive Learning Framework for Emotion Recognition in Conversations*.
 
 <img src="https://img.shields.io/badge/Venue-ACL--23-blue" alt="venue"/> <img src="https://img.shields.io/badge/Status-Accepted-success" alt="status"/> <img src="https://img.shields.io/badge/Issues-Welcome-red">
 
